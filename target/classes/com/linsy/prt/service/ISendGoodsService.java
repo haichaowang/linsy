@@ -1,0 +1,1 @@
+package com.linsy.prt.service;import com.linsy.prt.domain.T_Kingdee_SendGoods;/** * Created by Administrator on 2017/6/13. */public interface ISendGoodsService {    boolean UpsertSendGoods(T_Kingdee_SendGoods sendGoods);}

@@ -1,0 +1,1 @@
+package com.linsy.prt.service;import com.linsy.prt.domain.T_JHS_CollData;import java.util.List;/** * Created by Administrator on 2017/6/14. */public interface ICollDataService {    boolean UpsertCollData(T_JHS_CollData collData);    List<T_JHS_CollData> GetCollDataAll();}

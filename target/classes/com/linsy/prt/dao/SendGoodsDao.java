@@ -1,0 +1,1 @@
+package com.linsy.prt.dao;import com.linsy.prt.domain.T_Kingdee_SendGoods;/** * Created by Administrator on 2017/6/13. */public interface SendGoodsDao {    int UpsertSendGoods(T_Kingdee_SendGoods sendGoods);}
